@@ -1,0 +1,57 @@
+a.one:link {text-decoration: none; color:red;}
+a.one:visited {text-decoration: none; color:red;}
+a.one:hover {text-decoration: underline; color:red ;}
+a.one:active {text-decoration: underline; color:red;}
+
+a.two:link {text-decoration: none; color:yellow;}
+a.two:visited {text-decoration: none; color:yellow;}
+a.two:hover {text-decoration: underline; color:yellow;}
+a.two:active {text-decoration: underline; color:yellow;}
+
+a.three:link {text-decoration: none; color:green;}
+a.three:visited {text-decoration: none; color:green;}
+a.three:hover {text-decoration: underline; color:green}
+a.three:active {text-decoration: underline; color:green;}
+
+body{
+    background-color: aquamarine;
+}
+
+img{
+width: 220px;
+height: 180px;
+border: 2px solid black;
+margin: 0px auto;
+transition: .3S ease;
+margin-right: 15px;
+}
+
+img:hover{
+    /* width: 240px;
+    height: 200px;
+   align-items: center;
+   border-radius: 10%;
+   border: 5px solid rgb(129, 129, 129); */
+   transform: scale(1.1);
+
+}
+
+.container{
+max-width: 85%;
+background-color:aquamarine;
+padding: 20px;
+margin: 0px auto;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+height: 220px;
+
+}
+
+.logo{
+    border-radius: 5%;
+}
+
+p{
+    text-align: center;
+}
